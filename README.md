@@ -18,7 +18,7 @@ e.g.
 
 - afl-fuzz.exe -i input -o out -f input.txt -t 5000+ --  -coverage_module notepad.exe -cpukill -- notepad.exe @@
 
-Options for AFL:
+- Options for AFL:
 
   -i dir        - input directory with test cases
 
@@ -29,7 +29,7 @@ Options for AFL:
   -f file       - location read by the fuzzed program
 
 
-Options for Pin:
+- Options for Pin:
 
   -coverage_module module     -  module for which to record coverage
 
@@ -37,15 +37,15 @@ Options for Pin:
 
 
 
-#Depends:
+# Depends:
 
 - None
 
-#Change Log
+# Change Log
 
 - To be continued.
 
 
-#UI
+# UI
 
-- See the [PinAFL.png](PinAFL.png)
+- <p align="center"><img src ="https://github.com/majinxin2003/PinAFL/blob/master/PinAFL.png" /></p>
